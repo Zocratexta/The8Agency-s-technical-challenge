@@ -1,0 +1,58 @@
+header {
+    background-image: url("../../assets/Group 4.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.title {
+    align-self: center; 
+    font-family: "SharpSansNo1-Bold";
+    color: #02363D;
+    font-size: 20px;
+    text-align: center;
+    line-height: 52px;
+}
+
+.title button {
+    background-color: #BA3D07;
+    font-weight: bold;
+    font-size: 13px;
+    color: #FFFFFF;
+    text-align: center;
+    border: 0;
+    height: 30px;
+    width: 90px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.title h4{
+    font-family: "SharpSansNo1-SemiBold";
+    text-transform: uppercase;
+}
+
+.text-italic {
+    font-style: italic;
+}
+.title h1, h4{
+    margin: 0;
+    padding-top: 10px;
+}
+
+@media (max-width: 990px){
+    .title {
+        padding: 0px 20px;
+        font-size: 15px;
+    }
+}
