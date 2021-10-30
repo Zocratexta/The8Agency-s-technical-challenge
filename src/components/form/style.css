@@ -32,6 +32,19 @@
     width: 380px;
     height: 45px;
     margin-bottom: 20px;
+    padding: 0px;
+}
+
+.form-option {
+    background: #FFFFFF;
+    border: 1px solid #68737D;
+    width: 382px;
+    height: 47px;
+    margin-bottom: 20px;
+    font-family: ProximaNova-Regular;
+    font-size: 16px;
+    color: #68737D;
+    padding-left: 10px;
 }
 
 .form button {
@@ -43,7 +56,7 @@
     color: #FFFFFF;
     text-align: center;
     border: 0;
-    margin-top: 20px;
+    margin: 20px 0px 30px 0px;
     width: 380px;
 }
 
@@ -57,12 +70,9 @@
         justify-content: center;
         max-width:100%;
     }
-    .form input {
+    .form input, .form-option, .form button{
         max-width: 100%
 
-    }
-    .form button {
-        max-width: 100%
     }
 }
 
@@ -75,15 +85,7 @@
         justify-content: center;
         max-width:100%;
     }
-    .form input {
-        width: 250px;
-        height: 25px;
-        max-width: 100%
-
-    }
-    .form button {
-        width: 250px;
-        height: 35px;
+    .form input, .form-option, .form button {
         max-width: 100%
     }
 }

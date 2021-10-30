@@ -1,0 +1,31 @@
+.footer-container {
+    height: 150px;
+    width: 100%;
+    background: #F8F9F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: ProximaNova-Regular;
+    font-size: 16px;
+    color: #405457;
+}
+
+.footer-items {
+    width: 80%;
+    align-self: center;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+}
+
+@media (max-width: 650px) {
+    .footer-container {
+        height: 100px;
+        margin-top: 5%;
+    }
+}
+

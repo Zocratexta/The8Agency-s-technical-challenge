@@ -13,7 +13,19 @@ const Form = () => {
                 <label >Correo electrónico del trabajo</label>
                 <input type="text" name="email" required/>
                 <label >País</label>
-                <input type="text" name="country" required/>
+                <select className="form-option" name="country">
+                    <option value="Argentina">Argentina</option>
+                    <option value="Bolivia">Bolivia</option>
+                    <option value="Brasil">Brasil</option>
+                    <option value="Chile">Chile</option>
+                    <option value="Colombia">Colombia</option>
+                    <option value="Ecuador">Ecuador</option>
+                    <option value="México">México</option>
+                    <option value="Paraguay">Paraguay</option>
+                    <option value="Perú">Perú</option>
+                    <option value="Uruguay">Uruguay</option>
+                    <option value="Venezuela">Venezuela</option>
+                </select>
                 <label >Número de teléfono</label>
                 <input type="number" name="phone" required/>
                 <label >Puesto de trabajo</label>
