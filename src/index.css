@@ -11,9 +11,16 @@
 
 @font-face {
     font-family: 'SharpSansNo1-Semibold';
-    src: local('SharpSansNo1-Semibold'), url(./assets/fonts/SharpSansNo1Medium-Regular.woff2) format('woff2');
+    src: local('SharpSansNo1-Semibold'), url(./assets/fonts/SharpSansNo1-Bold.woff2) format('woff2');
     font-weight: 600;
 }
+
+@font-face {
+    font-family: 'SharpSansNo1-Medium';
+    src: local('SharpSansNo1-Medium'), url(./assets/fonts/SharpSansNo1Medium-Regular.woff2) format('woff2');
+    font-weight: 500;
+}
+
 
 body {
   margin: 0;
