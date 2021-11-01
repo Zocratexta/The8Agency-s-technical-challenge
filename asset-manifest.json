@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/The8Agency-s-technical-challenge/static/css/main.843f6796.chunk.css",
+    "main.js": "/The8Agency-s-technical-challenge/static/js/main.1dcc16bf.chunk.js",
+    "main.js.map": "/The8Agency-s-technical-challenge/static/js/main.1dcc16bf.chunk.js.map",
+    "runtime-main.js": "/The8Agency-s-technical-challenge/static/js/runtime-main.a314eb53.js",
+    "runtime-main.js.map": "/The8Agency-s-technical-challenge/static/js/runtime-main.a314eb53.js.map",
+    "static/js/2.e5db0a81.chunk.js": "/The8Agency-s-technical-challenge/static/js/2.e5db0a81.chunk.js",
+    "static/js/2.e5db0a81.chunk.js.map": "/The8Agency-s-technical-challenge/static/js/2.e5db0a81.chunk.js.map",
+    "index.html": "/The8Agency-s-technical-challenge/index.html",
+    "static/css/main.843f6796.chunk.css.map": "/The8Agency-s-technical-challenge/static/css/main.843f6796.chunk.css.map",
+    "static/js/2.e5db0a81.chunk.js.LICENSE.txt": "/The8Agency-s-technical-challenge/static/js/2.e5db0a81.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/The8Agency-s-technical-challenge/static/media/Group 4.1b85305b.svg",
+    "static/media/Group 5.d956b3dc.jpg": "/The8Agency-s-technical-challenge/static/media/Group 5.d956b3dc.jpg",
+    "static/media/index.css": "/The8Agency-s-technical-challenge/static/media/proximanova-regular-webfont.ec8d0b78.woff2",
+    "static/media/prado.00622d45.svg": "/The8Agency-s-technical-challenge/static/media/prado.00622d45.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a314eb53.js",
+    "static/js/2.e5db0a81.chunk.js",
+    "static/css/main.843f6796.chunk.css",
+    "static/js/main.1dcc16bf.chunk.js"
+  ]
+}
