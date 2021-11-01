@@ -4,8 +4,28 @@ import logo from "../../assets/Group 5.jpg";
 import profile from "../../assets/prado.svg";
 import img from "../../assets/img-rodriguez.png";
 import { Form } from "../../components";
+import { postAttendee } from "../../services/axios";
 
 const Home = () => {
+    const handlerSubmit = (e) => {
+        e.preventDefault();
+        const attendee = {
+            "name": e.target.name.value,
+            "surname": e.target.lname.value,
+            "email": e.target.email.value,
+            "country": e.target.country.value,
+            "phone": e.target.phone.value,
+            "job": e.target.job.value,
+        };
+        postAttendee(attendee)
+        e.target.name.value=("");
+        e.target.lname.value=("");
+        e.target.email.value=("");
+        e.target.country.value=("");
+        e.target.phone.value=("");
+        e.target.job.value=("");
+    } 
+
     return (
         <div className="home-container">
             <div className="info-container">
@@ -53,7 +73,7 @@ const Home = () => {
                 </div>
                 <img className="logo" src={logo}/>
             </div>
-            <Form/>
+            <Form handlerSubmit={handlerSubmit}/>
         </div>
     )
 }

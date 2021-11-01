@@ -1,10 +1,10 @@
 import React from "react";
 import "./style.css";
 
-const Form = () => {
+const Form = ({ handlerSubmit }) => {
     return (
         <div className="form-container">
-            <form className="form">
+            <form className="form" onSubmit={handlerSubmit}>
                 <h4>¡Inscríbete y reserva tu lugar ahora!</h4>
                 <label >Nombre</label>
                 <input type="text" name="name" required/>
